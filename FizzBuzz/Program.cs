@@ -2,11 +2,14 @@
 
 namespace FizzBuzz
 {
-    class Program
+    /// <summary>
+    /// FizzBuzz Kata TDD.
+    /// </summary>
+    public class Program
     {
-        static void Main(string[] args)
+        public string FizzBuzz(int input)
         {
-            Console.WriteLine("Hello World!");
+            return "1";
         }
     }
 }
