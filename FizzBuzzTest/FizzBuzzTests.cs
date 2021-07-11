@@ -52,6 +52,19 @@ namespace FizzBuzzTest
             Assert.AreEqual("Fizz", result);
         }
 
+        [Test]
+        public void ShouldReturnFizz_WhenPassingSix()
+        {
+            // Arrange
+            const int input = 6;
+
+            // Setup
+            string result = Program.FizzBuzz(input);
+
+            // Assert
+            Assert.AreEqual("Fizz", result);
+        }
+
 
     }
 }
