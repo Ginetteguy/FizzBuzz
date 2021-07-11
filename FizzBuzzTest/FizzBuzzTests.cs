@@ -25,5 +25,20 @@ namespace FizzBuzzTest
             // Assert
             Assert.AreEqual("1", result);
         }
+
+        [Test]
+        public void ShouldReturnTwo_WhenPassingTwo()
+        {
+            // Arrange
+            const int input = 2;
+
+            // Setup
+            string result = Program.FizzBuzz(input);
+
+            // Assert
+            Assert.AreEqual("2", result);
+        }
+
+
     }
 }

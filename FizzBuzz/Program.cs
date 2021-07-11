@@ -9,7 +9,7 @@ namespace FizzBuzz
     {
         public string FizzBuzz(int input)
         {
-            return "1";
+            return input.ToString();
         }
     }
 }
