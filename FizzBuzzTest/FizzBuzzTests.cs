@@ -103,5 +103,30 @@ namespace FizzBuzzTest
             // Assert
             Assert.AreEqual("FizzBuzz", result);
         }
+
+        public void ShoulReturnSixteen_WhenPassingSixteen()
+        {
+            // Arrange
+            const int input = 16;
+
+            // Setup
+            string resultat = Program.FizzBuzz(input);
+
+            // Assert
+            Assert.AreEqual("16", resultat);
+        }
+
+        public void ShouldReturnSeventeen_WhenPassingSeventeen()
+        {
+            // Arrange
+            const int input = 17;
+
+            // Setup
+            string resultat = Program.FizzBuzz(input);
+
+            // Assert
+            Assert.AreEqual("17", resultat);
+
+        }
     }
 }
